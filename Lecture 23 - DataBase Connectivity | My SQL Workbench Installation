@@ -1,0 +1,5 @@
+// Lecture 23 - DataBase Connectivity | My SQL Workbench Installation
+create database NEW;
+use NEW;
+create table Customers(customer_number int primary key, first name varchar(255));
+select * from Customers;
