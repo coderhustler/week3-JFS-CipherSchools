@@ -50,10 +50,10 @@ class Worker2 implements Runnable{
     }
 }
 
-public class lecture20 {
+public class lecture22 {
 
     Thread t1,t2;
-    lecture20(){
+    lecture22(){
         t1=new Thread(new Worker1());
         t2=new Thread(new Worker2());
 
@@ -68,7 +68,7 @@ public class lecture20 {
 //        Worker w1=new Worker();
 //        w1.start();
 
-        new lecture20();
+        new lecture22();
 
     }
 }
